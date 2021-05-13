@@ -193,9 +193,9 @@ def getImagesPartitionByPartition():
     global new_frames
     global new_frames_cv
 
-    dirs = np.array_split(dirs, 6)
-    #dirs_cv = np.array_split(dirs_cv, 8)
-    for i in range(0, 5):
+    dirs = np.array_split(dirs, 10)
+    #dirs_cv = np.array_split(dirs_cv, 10)
+    for i in range(0, 9):
         for directory in dirs[i]:
             new_frame = []  # one training
             # Frames in each folder

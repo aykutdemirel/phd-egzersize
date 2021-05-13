@@ -25,7 +25,7 @@ classes = label[0].tolist()
 
 print ("classes" + str(classes))
 
-img = cv.imread('/Users/aykutdemirel/Desktop/3D-CNN-Gesture-recognition/rainy-day/121_input.jpg',0)
+img = cv.imread('/rainy-day/121_input.jpg',0)
 plt.imshow(img, cmap = 'gray', interpolation = 'bicubic')
 plt.xticks([]), plt.yticks([])  # to hide tick values on X and Y axis
 
